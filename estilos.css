@@ -1,0 +1,151 @@
+/* estilos.css */
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header h2 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.botones {
+  margin-top: 1rem;
+}
+
+.botones a {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.linkedin {
+  background-color: #0077b5;
+}
+
+.linkedin:hover {
+  background-color: #005a8e;
+}
+
+.whatsapp {
+  background-color: #25D366;
+}
+
+.whatsapp:hover {
+  background-color: #1da851;
+}
+
+section {
+  background-color: white;
+  margin: 1.5rem auto;
+  padding: 1.5rem;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h3 {
+  margin-top: 0;
+  color: #003366;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.grid li {
+  background-color: #e6f0ff;
+  padding: 0.5rem;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.experiencia h4 {
+  margin-bottom: 0.3rem;
+  color: #222;
+}
+
+.experiencia p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+details {
+  margin-top: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  background-color: #f9f9f9;
+}
+
+details summary {
+  cursor: pointer;
+  font-weight: bold;
+  color: #003366;
+  padding: 0.5rem 0;
+  list-style: none;
+}
+
+details[open] summary::after {
+  content: "▲";
+  float: right;
+}
+
+details summary::after {
+  content: "▼";
+  float: right;
+}
+
+details ul {
+  margin-top: 1rem;
+  padding-left: 1.2rem;
+  list-style-type: disc;
+}
+
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+footer .botones {
+  margin-top: 0.5rem;
+}
+
+.foto-perfil {
+  width: 200x;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 25%;
+  border: 3px solid white;
+  margin-bottom: 1rem;
+}
